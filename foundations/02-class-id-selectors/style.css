@@ -1,4 +1,19 @@
 .coolclass {
-    background-color: pink;
+    background-color: #ffc0cb;
     font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.coolerclass {
+    font-size: 24px;
+}
+
+#firstid {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+#secondid {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
 }
