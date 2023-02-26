@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.header, .footer {
+  display: flex;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.header {
+  align-items: center;
+}
+
+.footer {
+  background-color: #eeeeee;;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 255px;
+  margin-bottom: 255px;
+}
+.left-links, .right-links {
+ display: flex;
+ gap: 12px;;
+}
+
+.right-links {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
+.left-links {
+ margin-left: -16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -16,6 +55,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
